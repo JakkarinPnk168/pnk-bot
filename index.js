@@ -119,9 +119,9 @@ cron.schedule(
 );
 
 cron.schedule(
-  "0 1 * * *",
+  "0 22 * * *",
   async () => {
-    await pushToAllTargets("🌙 ร้านปิดแล้ว (01:00)");
+    await pushToAllTargets("🌙 ร้านปิดแล้ว (22:00) test");
   },
   { timezone: "Asia/Bangkok" }
 );
