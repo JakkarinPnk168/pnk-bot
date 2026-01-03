@@ -1,16 +1,14 @@
 {
   "name": "pnk-bot",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
-    "express": "^5.2.1"
+    "@line/bot-sdk": "^10.0.0",
+    "express": "^4.19.2",
+    "node-cron": "^3.0.3"
   }
 }
