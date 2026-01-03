@@ -126,6 +126,13 @@ cron.schedule(
   { timezone: "Asia/Bangkok" }
 );
 
+///ยิงเทสข้อความ
+app.get("/test-push", async (req, res) => {
+  await pushToAllTargets("🧪 TEST: บอทส่งข้อความเข้ากลุ่มสำเร็จแล้ว");
+  res.send("OK");
+});
+
+
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
