@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@line/bot-sdk": "^10.0.0",
+    "axios": "^1.13.2",
     "express": "^4.19.2",
     "node-cron": "^3.0.3"
   }
